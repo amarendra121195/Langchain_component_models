@@ -4,10 +4,10 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-# llm = HuggingFaceEndpoint(
-#     repo_id="TinyLlama/TinyLlama-1.1B-Chat-v1.0",
-#     task="text-generation"
-# ) # You can change the model here, but make sure it is a chat model
+llm = HuggingFaceEndpoint(
+    repo_id="TinyLlama/TinyLlama-1.1B-Chat-v1.0",
+    task="text-generation"
+) # You can change the model here, but make sure it is a chat model
 
 
 model = ChatHuggingFace(llm=llm)

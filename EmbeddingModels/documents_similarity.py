@@ -5,7 +5,7 @@ import numpy as np
 
 load_dotenv()
 
-# embedding = OpenAIEmbeddings(model='text-embedding-3-large', dimensions=300)
+embedding = OpenAIEmbeddings(model='text-embedding-3-large', dimensions=300)
 
 documents = [
     "Virat Kohli is an Indian cricketer known for his aggressive batting and leadership.",
